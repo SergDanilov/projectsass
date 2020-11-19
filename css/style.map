@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$text_color: white;\n$back_color: lightgreen;\n@mixin box {\n    display: block;\n    color: white;\n    width: 350px;\n    height: 150px;\n    background-color: brown;\n    margin: 0 auto; }\n\nh1 {\n    color: $back_color;\n    font-size: 32px;\n    font-weight: 700; }\nh2 {\n    color: $text_color;\n    font-size: 50px;\n    background: #000; }\n\n.block {\n        background-color: $back_color;\n        width: 100%;\n        h3 {\n            color: $text_color;\n            font-weight: 900;\n            font-size: 50px; }\n        button {\n            @include box; }\n        &_color {\n            max-width: 500px;\n            margin: 0 auto;\n            background-color: $back_color;\n            display: flex;\n            justify-content: center; } }\n\n"
+	],
+	"names": [],
+	"mappings": ";AAUA,AAAA,EAAE,CAAC;EACC,KAAK,EAVI,UAAU;EAWnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CAAG;;;AACvB,AAAA,EAAE,CAAC;EACC,KAAK,EAfI,KAAK;EAgBd,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CAAG;;;AAEvB,AAAA,MAAM,CAAC;EACC,gBAAgB,EAnBX,UAAU;EAoBf,KAAK,EAAE,IAAI;CAYqB;;;AAdxC,AAGQ,MAHF,CAGE,EAAE,CAAC;EACC,KAAK,EAvBJ,KAAK;EAwBN,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAAG;;;AAN9B,AAOQ,MAPF,CAOE,MAAM,CAAC;EAvBX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,MAAM;CAmBS;;;AAClB,AAAD,YAAO,CAAC;EACJ,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,gBAAgB,EA9Bf,UAAU;EA+BX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAAG"
+}

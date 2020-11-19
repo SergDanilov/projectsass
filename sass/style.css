@@ -1,0 +1,44 @@
+h1 {
+  color: lightgreen;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  background: #000;
+}
+
+.block {
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.block h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.block button {
+  display: block;
+  color: white;
+  width: 350px;
+  height: 150px;
+  background-color: brown;
+  margin: 0 auto;
+}
+
+.block_color {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+/*# sourceMappingURL=style.css.map */

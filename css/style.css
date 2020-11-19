@@ -1,0 +1,47 @@
+/* line 11, D:/10/SASS_practice/sass/style.sass */
+h1 {
+  color: lightgreen;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* line 15, D:/10/SASS_practice/sass/style.sass */
+h2 {
+  color: white;
+  font-size: 50px;
+  background: #000;
+}
+
+/* line 20, D:/10/SASS_practice/sass/style.sass */
+.block {
+  background-color: lightgreen;
+  width: 100%;
+}
+
+/* line 23, D:/10/SASS_practice/sass/style.sass */
+.block h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+/* line 27, D:/10/SASS_practice/sass/style.sass */
+.block button {
+  display: block;
+  color: white;
+  width: 350px;
+  height: 150px;
+  background-color: brown;
+  margin: 0 auto;
+}
+
+/* line 29, D:/10/SASS_practice/sass/style.sass */
+.block_color {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

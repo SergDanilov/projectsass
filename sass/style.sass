@@ -1,0 +1,35 @@
+$text_color: white
+$back_color: lightgreen
+@mixin box
+    display: block
+    color: white
+    width: 350px
+    height: 150px
+    background-color: brown
+    margin: 0 auto
+    
+h1      
+    color: $back_color
+    font-size: 32px
+    font-weight: 700
+h2 
+    color: $text_color 
+    font-size: 50px
+    background: #000
+
+.block  
+        background-color: $back_color
+        width: 100%
+        h3
+            color: $text_color
+            font-weight: 900 
+            font-size: 50px
+        button
+            @include box
+        &_color
+            max-width: 500px
+            margin: 0 auto
+            background-color: $back_color 
+            display: flex
+            justify-content: end
+  
